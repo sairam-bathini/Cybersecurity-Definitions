@@ -1,0 +1,95 @@
+Definition: An API endpoint is a specific URL that allows communication with an API (Application Programming Interface). It serves as a point of interaction between the client (such as a web application or mobile app) and the server, enabling the client to request and manipulate data. API endpoints are crucial in defining the paths through which the API can be accessed and are typically associated with specific actions or resources within the application.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Components of an API Endpoint
+
+Base URL: The root URL for the API. It typically indicates the domain and base path where the API is hosted.
+Example: https://api.example.com
+
+Endpoint Path: The specific path appended to the base URL that identifies the resource or action.
+Example: /users, /posts, /products
+
+HTTP Method: The HTTP method (such as GET, POST, PUT, DELETE) defines the type of operation to be performed on the resource.
+Example: GET, POST, PUT, DELETE
+
+Parameters: Additional data that can be sent with the request, either as query parameters, path parameters, or request body.
+Example: ?userId=123, /users/123, JSON body
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example of an API Endpoint
+
+Consider a web application with an API for managing users. The API has endpoints for various operations like retrieving user details, creating a new user, updating user information, and deleting a user.
+
+Example API Endpoints:
+
+Retrieve User Details:
+URL: https://api.example.com/users/123
+HTTP Method: GET
+Description: Retrieves details of the user with ID 123.
+
+Create a New User:
+URL: https://api.example.com/users
+HTTP Method: POST
+Description: Creates a new user with the provided information.
+
+Update User Information:
+URL: https://api.example.com/users/123
+HTTP Method: PUT
+Description: Updates the information of the user with ID 123.
+
+Delete a User:
+URL: https://api.example.com/users/123
+HTTP Method: DELETE
+Description: Deletes the user with ID 123.
+
+Example in Practice
+Here's a practical example using a RESTful API for a user management system:
+
+1. Retrieve User Details (GET):
+http
+Copy code
+GET /users/123 HTTP/1.1
+Host: api.example.com
+Authorization: Bearer your_access_token
+
+2. Create a New User (POST):
+http
+Copy code
+POST /users HTTP/1.1
+Host: api.example.com
+Content-Type: application/json
+Authorization: Bearer your_access_token
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "securepassword"
+}
+
+3. Update User Information (PUT):
+http
+Copy code
+PUT /users/123 HTTP/1.1
+Host: api.example.com
+Content-Type: application/json
+Authorization: Bearer your_access_token
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+}
+
+4. Delete a User (DELETE):
+http
+Copy code
+DELETE /users/123 HTTP/1.1
+Host: api.example.com
+Authorization: Bearer your_access_token
+
+Why API Endpoints Matter
+
+Modularity: API endpoints allow for a modular approach to application development, enabling different parts of an application to communicate with each other seamlessly.
+Scalability: Well-designed API endpoints make it easier to scale an application by separating concerns and allowing different components to evolve independently.
+Interoperability: APIs enable interoperability between different systems and platforms, allowing them to work together and exchange data.
+Security: Properly secured API endpoints ensure that data is protected and that only authorized clients can perform certain actions.
+
+In summary, API endpoints are the specific URLs through which clients interact with an API, enabling them to perform operations on resources and communicate with the server. They are essential for the functionality, scalability, and security of modern web applications.
