@@ -1,0 +1,115 @@
+Authentication – The process of verifying the identity of a user or system before granting access to resources.
+
+Authorization – The process of determining if a user has permission to access a specific resource after authentication.
+
+Session – A period of interaction between a user and a system, typically secured by authentication.
+
+Cookies – Small pieces of data stored by a web browser to remember user preferences and session information.
+
+Encryption – The process of converting information into a secure format that can only be accessed by authorized parties.
+
+Decryption – The process of converting encrypted data back to its original form.
+
+Firewall – A security system that monitors and controls incoming and outgoing network traffic based on predetermined rules.
+
+Malware – Malicious software designed to harm, exploit, or steal data from systems or networks.
+
+Virus – A type of malware that attaches itself to legitimate programs and spreads to other systems.
+
+Worm – A self-replicating malware that spreads across networks without needing to attach to a host program.
+
+Ransomware – A type of malware that locks users out of their systems or data and demands payment to restore access.
+
+Phishing – A social engineering attack where attackers impersonate legitimate entities to steal sensitive information.
+
+Social Engineering – Manipulating people into revealing confidential information or performing actions that compromise security.
+
+Threat – A potential event or action that could cause harm to a system or data.
+
+Vulnerability – A weakness in a system or software that could be exploited by a threat.
+
+Exploit – A technique used to take advantage of a vulnerability in a system.
+
+Zero-day – A vulnerability that is discovered and exploited before a patch is available.
+
+Patch – An update to software or a system that fixes security vulnerabilities or bugs.
+
+Credentials – Information used to verify identity, such as usernames and passwords.
+
+Access Control – Mechanisms that restrict unauthorized users from accessing specific resources.
+
+Multi-Factor Authentication (MFA) – A security method that requires two or more forms of authentication to verify identity.
+
+Public Key Infrastructure (PKI) – A framework that manages digital certificates and encryption keys to secure communications.
+
+Hashing – The process of converting data into a fixed-size string of characters, which represents the data in a secure manner.
+
+Man-in-the-Middle Attack (MITM) – An attack where a third party intercepts and potentially alters communications between two parties.
+
+Denial-of-Service (DoS) Attack – An attack that overloads a system or network, making it unavailable to users.
+
+Distributed Denial-of-Service (DDoS) Attack – A more powerful form of DoS attack, where multiple systems flood a target, causing service disruption.
+
+Intrusion Detection System (IDS) – A system that monitors network or system activities for malicious activity or policy violations.
+
+Intrusion Prevention System (IPS) – A system that detects and prevents unauthorized access to a network or system.
+
+Virtual Private Network (VPN) – A secure network connection over the internet that encrypts data and hides the user's IP address.
+
+Penetration Testing – Simulated cyberattacks to identify and fix vulnerabilities in a system before an attacker can exploit them.
+
+Vulnerability Assessment – The process of identifying, classifying, and prioritizing vulnerabilities in a system.
+
+Incident Response – The approach taken to deal with security breaches, attacks, or other threats in real-time.
+
+Forensics – The process of investigating and analyzing systems to gather evidence after a security incident.
+
+Security Operations Center (SOC) – A centralized team that monitors and manages an organization’s security.
+
+Security Information and Event Management (SIEM) – A system that collects, analyzes, and reports on security-related data across an organization.
+
+Botnet – A group of compromised devices controlled by an attacker to perform malicious activities.
+
+Brute Force Attack – An attack that uses trial and error to guess passwords or encryption keys.
+
+SQL Injection – An attack that exploits vulnerabilities in an application's database layer by inserting malicious SQL queries.
+
+Cross-Site Scripting (XSS) – An attack that injects malicious scripts into web pages, which are executed by unsuspecting users' browsers.
+
+Cross-Site Request Forgery (CSRF) – An attack that tricks a user into performing actions they did not intend to perform by exploiting their authenticated session with a website.
+
+Content-Security-Policy (CSP) – A security feature that helps prevent XSS and other code injection attacks by specifying which sources are trusted for content on a web page.
+
+Least Privilege – A principle that ensures users and systems are granted only the access necessary to perform their duties.
+
+Data Breach – An incident where sensitive, protected, or confidential data is accessed, stolen, or disclosed without authorization.
+
+Security Policies – A set of rules and practices that govern how an organization protects its information and IT systems.
+
+Compliance – Adhering to industry standards, laws, and regulations related to data protection and cybersecurity.
+
+Risk Assessment – The process of identifying, analyzing, and prioritizing risks to systems and data.
+
+Patch Management – The process of updating software and systems to fix vulnerabilities and improve security.
+
+Sandboxing – Isolating programs or code in a controlled environment to prevent them from affecting other parts of a system.
+
+Data Loss Prevention (DLP) – A strategy for preventing unauthorized access to or transmission of sensitive data.
+
+Zero Trust Architecture – A security model that assumes no one inside or outside a network can be trusted without verification.
+
+API Security – Securing Application Programming Interfaces (APIs) to prevent unauthorized access or attacks.
+
+Cryptography – The practice of securing communication and information using codes and encryption techniques.
+
+Digital Signature – An electronic signature used to verify the authenticity and integrity of digital data.
+
+Threat Modeling – The process of identifying potential threats to a system and determining how to mitigate them.
+
+SOC 2 – A compliance framework that ensures service providers securely manage data to protect the privacy of clients.
+
+GDPR (General Data Protection Regulation) – A European Union regulation that protects personal data and privacy for individuals within the EU.
+
+NIST (National Institute of Standards and Technology) – A U.S. government agency that provides standards and guidelines for cybersecurity practices.
+
+ISO 27001 – An international standard for managing information security, designed to protect data and manage risks effectively.
