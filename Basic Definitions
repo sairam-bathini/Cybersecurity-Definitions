@@ -40,8 +40,6 @@ Access Control – Mechanisms that restrict unauthorized users from accessing sp
 
 Multi-Factor Authentication (MFA) – A security method that requires two or more forms of authentication to verify identity.
 
-Public Key Infrastructure (PKI) – A framework that manages digital certificates and encryption keys to secure communications.
-
 Hashing – The process of converting data into a fixed-size string of characters, which represents the data in a secure manner.
 
 Man-in-the-Middle Attack (MITM) – An attack where a third party intercepts and potentially alters communications between two parties.
