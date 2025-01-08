@@ -16,8 +16,6 @@ Malware – Malicious software designed to harm, exploit, or steal data from sys
 
 Virus – A type of malware that attaches itself to legitimate programs and spreads to other systems.
 
-Worm – A self-replicating malware that spreads across networks without needing to attach to a host program.
-
 Ransomware – A type of malware that locks users out of their systems or data and demands payment to restore access.
 
 Phishing – A social engineering attack where attackers impersonate legitimate entities to steal sensitive information.
@@ -66,8 +64,6 @@ Security Operations Center (SOC) – A centralized team that monitors and manage
 
 Security Information and Event Management (SIEM) – A system that collects, analyzes, and reports on security-related data across an organization.
 
-Botnet – A group of compromised devices controlled by an attacker to perform malicious activities.
-
 Brute Force Attack – An attack that uses trial and error to guess passwords or encryption keys.
 
 SQL Injection – An attack that exploits vulnerabilities in an application's database layer by inserting malicious SQL queries.
@@ -92,19 +88,11 @@ Patch Management – The process of updating software and systems to fix vulnera
 
 Sandboxing – Isolating programs or code in a controlled environment to prevent them from affecting other parts of a system.
 
-Data Loss Prevention (DLP) – A strategy for preventing unauthorized access to or transmission of sensitive data.
-
-Zero Trust Architecture – A security model that assumes no one inside or outside a network can be trusted without verification.
-
 API Security – Securing Application Programming Interfaces (APIs) to prevent unauthorized access or attacks.
 
 Cryptography – The practice of securing communication and information using codes and encryption techniques.
 
-Digital Signature – An electronic signature used to verify the authenticity and integrity of digital data.
-
 Threat Modeling – The process of identifying potential threats to a system and determining how to mitigate them.
-
-SOC 2 – A compliance framework that ensures service providers securely manage data to protect the privacy of clients.
 
 GDPR (General Data Protection Regulation) – A European Union regulation that protects personal data and privacy for individuals within the EU.
 
