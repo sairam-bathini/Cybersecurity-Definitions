@@ -1,0 +1,40 @@
+Understanding Web Applications and How They Work
+
+1. What is a Web Application?
+
+A website is essentially a web application installed on a server.
+A server is a computer with specific programs (e.g., web server software) that make it accessible over the internet.
+Servers are typically hosted on the cloud with public IPs, allowing users to interact with them online.
+
+2. What is a Web Server?
+
+A web server is a software that hosts and serves files (e.g., HTML, images) to users over the HTTP protocol.
+It specifies a folder (web root) to store files that can be accessed remotely.
+Web servers often contain web application files, and programs designed to run on the server and interact with users via the Internet.
+
+3. Components of a Web Application
+
+Web Server Files: Include static content like HTML, images, and stylesheets for website rendering.
+Web Application Files: Contain dynamic code written in languages like PHP, Python, or Ruby to handle tasks like processing data.
+
+4. Role of Databases
+
+Database: Stores data (e.g., user accounts, product details) in organized tables.
+Data is not stored in the web server or the application but in the database.
+Example: A shop website's database table may contain product details such as IDs, names, and prices.
+
+5. How Web Applications Work
+
+Interaction with the Database:
+Web applications communicate with databases to retrieve or process data.
+Example: When a user logs in, the web application checks the username and password against the database.
+Dynamic Content:
+Web servers retrieve static files and dynamically process web application code to generate useful outputs like displaying product lists or user-specific content.
+
+6. Summary of the Workflow
+
+The user accesses the website via a browser.
+The web server serves static files and processes web application code.
+Web application interacts with the database to fetch and manipulate data.
+
+Results are displayed to the user in an organized, visually appealing format.
