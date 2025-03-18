@@ -1,0 +1,35 @@
+Short Notes on Important Security Headers
+What is an <iframe>?
+An inline frame (iframe) is an HTML element that loads another HTML page within the document. It essentially puts another webpage inside the parent page. They are commonly used for:
+✅ Advertisements
+✅ Embedded videos
+✅ Web analytics
+✅ Interactive content
+------------------------------------------------------------------------------------------------------------------------------------
+1️⃣ X-Frame-Options (Prevents Clickjacking)
+Purpose: Prevents a site from being embedded in an <iframe>, protecting against clickjacking attacks.
+Directives:
+DENY → Blocks all <iframe> embedding.
+SAMEORIGIN → Allows embedding only on the same domain.
+ALLOW-FROM <URL> → (Deprecated) Allows embedding from a specific domain.
+How to Remember? 🖼️ "Deny bad frames!"
+2️⃣ X-Content-Type-Options (Prevents MIME Sniffing)
+Purpose: Stops browsers from guessing (sniffing) the file type, preventing attacks like XSS.
+Directive:
+nosniff → Enforces declared content type.
+How to Remember? 🛑 "No Sniffing, No Spoofing!"
+3️⃣ X-XSS-Protection (Prevents XSS in Older Browsers)
+Purpose: Enables built-in browser XSS filters (now deprecated).
+Directives:
+0 → Disables protection.
+1 → Enables XSS filtering.
+1; mode=block → Blocks the page if an attack is detected.
+How to Remember? 🔒 "XSS detected? BLOCK IT!"
+4️⃣ HSTS (Strict-Transport-Security) (Forces HTTPS)
+Purpose: Forces browsers to only use HTTPS, preventing MITM and SSL stripping attacks.
+Directives:
+max-age=31536000 → Enforce HTTPS for 1 year.
+includeSubDomains → Apply to all subdomains.
+preload → Adds site to browser preload list.
+How to Remember? 🚦 "HSTS = HTTP STOP!"
+These headers significantly improve web security and should be used in all web applications. Would you like a checklist to ensure these are correctly implemented? 🚀
