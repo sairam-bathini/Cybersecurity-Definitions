@@ -33,21 +33,24 @@ If a program does not check input size, an attacker can enter more data than exp
 2️⃣ How an Attacker Can Exploit This
 Step 1: Find a Vulnerable Input Field
 A website might have a login page with a field for a username:
-
-c
-Copy
-Edit
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 char username[20];  // Buffer allocated only 20 bytes
 gets(username);     // Takes input without size check (dangerous)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Here, gets(username); is unsafe because it doesn't limit how much data can be entered.
 
 Step 2: Overflow the Buffer
+
 Instead of entering a normal name like "John", an attacker enters a very long string (e.g., 100 characters).
 This overwrites memory beyond the allocated space.
+
 Step 3: Overwrite the Return Address
+
 The return address tells the program where to go next.
 By carefully crafting the input, an attacker can replace the return address with a location that executes their malicious code.
+
 Step 4: Inject Malicious Code
+
 The attacker can inject shellcode (malicious instructions) into memory and modify the return address to execute the shellcode instead of returning to the normal function.
 
 Example: If the attacker wants to gain administrator privileges, they can craft an input that:
@@ -55,6 +58,7 @@ Example: If the attacker wants to gain administrator privileges, they can craft 
 Overflows the buffer.
 Replaces the return address with a function that grants admin access.
 Redirects execution to the malicious code.
+
 3️⃣ What Happens Next?
 If the attack is successful, the attacker can: ✔ Gain admin access to the website
 ✔ Modify or delete data
