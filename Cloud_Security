@@ -1,0 +1,71 @@
+WHAT IS A CLOUD SECURITY
+- shared responsibilty between you and the service provider
+
+- PaaS
+	- Making a program, migrating data and building applications
+	- Responsible: workload, securing application and the data
+	- Cloud provider: security of the application, the network, Runtime
+	- Platform as a service (PaaS) is a cloud computing model in which a third-party provider delivers hardware and software...
+
+-IaaS
+	- Infrastructure as a service
+	-Adoption model
+	- a cloud provider hosts the infrastructure components traditionally present in an on-premises data center, 
+	- including servers, storage, and networking hardware, as well as the virtualization or hypervisor layer.
+
+- SaaS
+	- Software as a service (SaaS) is a software distribution model in which a third-party provider hosts applications...
+	
+
+ARCHITECTURE
+- DATA 
+	-confidential data
+	- public data
+	- sensitive data 
+	- Data must have at rest encryption - always data is encrypted
+			- Data at rest
+			- Data at motion
+			- Data in storgae 
+	- You own your data and have complete control
+	- Private keys and public keys overall control over data stored based upon the nature of data present on your server 
+	- You also have greater responsibilty with this model
+	- Control over hardware module in which you have greater control over the encryption and decryption process
+	- Holistic approach 
+			- Bring your own keys
+			- keep your own keys 
+	- Data access is based upon the need
+			- Limiting acccess to data
+			- Application needs
+			- User needs
+	- Apllication Security
+			- ensure the absence of application vunerabilities before releasing the application
+			- Dynamic security
+			- static security
+	- Secure policy = control over data and clever oversight
+	- User Access
+			- who the user is : identity
+			- what servers they are accessing 
+			- Network access -> unauthorized users are blocked from acessing the data 
+					- firewalls
+					- network access control
+					- DDOS protection
+					- Intelligence built into the 	network
+	- Continual surveillance 
+		- Insight 
+		- compliance
+		- threats 
+		- Identifying your posture
+				-> Ability to gain visibility and be able to remediate and in order to maintain control at all times within the system, and take necessary action at all time
+
+DEVOPS 
+- DEVELOPMENT AND OPERATIONS 
+- security a forethought instead of managing security  
+Design
+- secure design
+- Integrating and embedding security as part of the process
+Build 
+- Security build 
+
+Manage Security
+- close loop
+- remediate while recognizing threats
