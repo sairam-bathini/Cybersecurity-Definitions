@@ -1,0 +1,41 @@
+Zero Trust Principles in Cybersecurity
+Zero Trust is a security model that assumes no entity (user, device, or system) is trustworthy by default, even inside an organization's network. It enforces continuous verification and strict access controls to reduce security risks.
+
+Key Principles of Zero Trust
+1️⃣ Verify Explicitly
+Never trust any request by default.
+Always authenticate and validate users, devices, and applications before granting access.
+Use Multi-Factor Authentication (MFA), biometrics, and identity verification.
+👉 Example:
+When an employee logs into the company’s internal portal, they must enter their password and verify their identity using MFA (e.g., OTP on phone or biometric scan).
+
+2️⃣ Least Privilege Access
+Give users only the minimum permissions required to do their job.
+Implement Role-Based Access Control (RBAC) or Attribute-Based Access Control (ABAC).
+Limit admin privileges to reduce risk.
+👉 Example:
+A junior HR employee should not have access to financial data. Instead, they only get access to employee records they need.
+
+3️⃣ Assume Breach
+Always assume attackers may have already infiltrated the network.
+Use segmentation and micro-segmentation to limit lateral movement.
+Continuously monitor and analyze activity for suspicious behavior.
+👉 Example:
+If a hacker gains access to one server, they cannot move freely to other servers because of network segmentation and strict access controls.
+
+4️⃣ Continuous Monitoring & Analytics
+Use AI-powered threat detection to identify anomalies in real-time.
+Implement User and Entity Behavior Analytics (UEBA) to detect insider threats.
+Perform continuous risk assessment instead of relying on one-time authentication.
+👉 Example:
+If a user suddenly logs in from two different countries within an hour, the system flags it as suspicious and asks for re-authentication.
+
+5️⃣ Secure All Endpoints & Devices
+Enforce security on every device, whether it's company-owned or personal (BYOD).
+Use endpoint detection & response (EDR) and Zero Trust Network Access (ZTNA) solutions.
+Encrypt sensitive data at rest and in transit.
+👉 Example:
+A remote worker using a personal laptop must pass device security checks (e.g., updated antivirus, VPN) before accessing company resources.
+
+Conclusion
+Zero Trust is a modern cybersecurity approach that protects organizations by continuously verifying users, enforcing strict access controls, and assuming that threats already exist inside the network. Implementing Zero Trust reduces attack surfaces and enhances security in today's digital landscape. 🚀
