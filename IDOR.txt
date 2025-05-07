@@ -3,7 +3,7 @@ Insecure Direct Object References (IDOR) occur when an application provides dire
 ------------------------------------------------------------------------------------------------------------------------------------------
 Insecure Direct Object References (IDOR) issue and its mitigation using Python code, assuming we're using a framework like Flask.
 
-Example: IDOR in User Profile API
+Example: IDOR in User Profile API.
 
 Vulnerable Code (Python/Flask):
 In this vulnerable implementation, the application directly retrieves user information based on the user ID provided in the request without checking if the authenticated user is authorized to access that user ID.
