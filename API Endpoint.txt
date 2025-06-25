@@ -1,5 +1,5 @@
 Definition: 
-An API endpoint is a specific URL that allows communication with an API (Application Programming Interface). It serves as a point of interaction between the client (such as a web application or mobile app) and the server, enabling the client to request and manipulate data. API endpoints are crucial in defining the paths through which the API can be accessed and are typically associated with specific actions or resources within the application.
+An API endpoint is  specific URL that allows communication with an API (Application Programming Interface). It serves as a point of interaction between the client (such as a web application or mobile app) and the server, enabling the client to request and manipulate data. API endpoints are crucial in defining the paths through which the API can be accessed and are typically associated with specific actions or resources within the application.
 ------------------------------------------------------------------------------------------------------------------------------------------
 Components of an API Endpoint
 
